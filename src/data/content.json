@@ -1,0 +1,247 @@
+{
+  "welcome": {
+  "sectionTitle": "Welcome to my CV",
+  "nameTitle": "Maria-Teodora Cotofana",
+  "jobTitle": "Junior Web Developer",
+  "moreTitle": "About me",
+  "descriptionList": [
+    "I am passionate, hardworking, a quick learner used to working in a fast paced environment for long hours.",
+    "Strong organisational and leading skills, efficient in meeting productivity targets, offering reliability and responsibility; charismatic and friendly."
+  ],
+  "downloadButtonLabel": "Download my CV"
+  },
+  "connect": {
+    "sectionTitle": "Let's connect",
+    "avatarPath": "asset/image/avatar-maria-cotofana.jpeg",
+    "socialList": [
+      {
+        "iconite": "codetap",
+        "title": "Codetap",
+        "description": "Junior Web Developer with the help of CodeTap Academy",
+        "label": "codetap.academy",
+        "link": "http://codetap.academy"
+      },
+  
+      {
+        "iconite": "github",
+        "title": "Github",
+        "description": "There are more projects where you can see me working with HTML, CSS..",
+        "label": "github.com/mariateo",
+        "link": "http://github.com/mariateo"
+      },
+  
+      {
+        "iconite": "linkedin",
+        "title": "LinkedIn",
+        "description": "We can connect even on LinkedIn",
+        "label": "linkedin.com/in/maria-teodora-cotofana-0a56a019b/",
+        "link": "https://www.linkedin.com/in/maria-teodora-cotofana-0a56a019b/"
+      },
+  
+      {
+        "iconite": "stackoverflow",
+        "title": "Stack Overflow",
+        "description": "Visit my Stack Overflow profile down below.",
+        "label": "stackoverflow.com/users/15208329/maria-teodora-cotofana?tab=profile",
+        "link": "https://stackoverflow.com/users/15208329/maria-teodora-cotofana?tab=profile"
+      },
+  
+      {
+        "iconite": "codewars",
+        "title": "Codewars",
+        "description": "You can see more of my progress here.",
+        "label": "codewars.com/users/MariaTeo",
+        "link": "https://www.codewars.com/users/MariaTeo"
+      },
+  
+      {
+        "iconite": "udemy",
+        "title": "Udemy",
+        "description": "You can see more of my progress here.",
+        "label": "udemy.com/user/maria-teodora-cotofana/",
+        "link": "https://www.udemy.com/user/maria-teodora-cotofana/"
+      },
+  
+      {
+        "iconite": "facebook",
+        "title": "Facebook",
+        "description": "If you want to see more about me and have a good laugh, then go ahead and add me on Facebook",
+        "label": "facebook.com/mushyroom.m",
+        "link": "https://www.facebook.com/mushyroom.m/"
+      },
+  
+      {
+        "iconite": "skype",
+        "title": "Skype",
+        "description": "Here is my Skype account.",
+        "label": "join.skype.com/invite/jXXGbxaQhmze",
+        "link": "https://join.skype.com/invite/jXXGbxaQhmze"
+      },
+  
+      {
+        "iconite": "instagram",
+        "title": "Instagram",
+        "description": "Instagram is where you can find me most active when I am off.",
+        "label": "instagram.com/mushyroom.m",
+        "link": "https://www.instagram.com/mushyroom.m/"
+      },
+  
+      {
+        "iconite": "twitter",
+        "title": "Twitter",
+        "description": "This is not the most favourite social media, but hey! You can find me here too!",
+        "label": "twitter.com/",
+        "link": "https://twitter.com/"  
+      }
+    ]
+  },
+  "skills": {
+    "sectionTitle": "Skills",
+    "descriere": "Light travels faster than sound. This is why some people appear brigth until you speak to them.",
+    "legend": {
+      "title": "Legend",
+      "itemList": [
+        {
+          "iconite": "heart",
+          "color": "red",
+          "label": "Skills I love"
+        },
+        {
+          "iconite": "trophy",
+          "color": "orange",
+          "label": "Skills I'm goot at"
+        },
+        {
+          "iconite": "book",
+          "color": "green",
+          "label": "Skills I'd love to get better at"
+        }
+      ]
+    },
+    "skillTypeList": [
+      {
+        "type": "Front-end",
+        "skillList": [
+          {
+            "type": "heart",
+            "label": "HTML"
+          },
+          {
+            "type": "heart",
+            "label": "CSS"
+          },
+          {
+            "type": "heart",
+            "label": "JavaScript"
+          },
+          {
+            "type": "heart",
+            "label": "React"
+          },
+          {
+            "type": "heart",
+            "label": "Redux"
+          },
+          {
+            "type": "heart",
+            "label": "Styled Components"
+          },
+          {
+            "type": "trophy",
+            "label": "Sass"
+          },
+          {
+            "type": "trophy",
+            "label": "Less"
+          },
+          {
+            "type": "trophy",
+            "label": "Material UI"
+          },
+          {
+            "type": "trophy",
+            "label": "SOE"
+          }
+        ]
+      },
+      {
+        "type": "Back-end",
+        "skillList": [
+          {
+            "type": "heart",
+            "label": "Pug"
+          },
+          {
+            "type": "heart",
+            "label": "NodeJs"
+          },
+          {
+            "type": "heart",
+            "label": "FireBase"
+          },
+          {
+            "type": "trophy",
+            "label": "Git"
+          },
+          {
+            "type": "trophy",
+            "label": "Linux"
+          },
+          {
+            "type": "heart",
+            "label": "Rest"
+          },
+          {
+            "type": "trophy",
+            "label": "MySql"
+          },
+          {
+            "type": "book",
+            "label": "SWS"
+          },
+          {
+            "type": "book",
+            "label": "BlockChain"
+          },
+          {
+            "type": "book",
+            "label": "Elastic Search"
+          },
+          {
+            "type": "book",
+            "label": "GraphQl"
+          }
+        ]
+      },
+      {
+        "type": " Others",
+        "skillList": [
+          {
+            "type": "heart",
+            "label": "Windows"
+          },
+          {
+            "type": "heart",
+            "label": "Linux"
+          },
+          {
+            "type": "heart",
+            "label": "Mac OSx"
+          },
+          {
+            "type": "trophy",
+            "label": "Jira"
+          },
+          {
+            "type": "trophy",
+            "label": "Agile"
+          },
+          {
+            "type": "trophy",
+            "label": "Rally"
+          }
+        ]
+      }
+    ]
+  }  
+}
