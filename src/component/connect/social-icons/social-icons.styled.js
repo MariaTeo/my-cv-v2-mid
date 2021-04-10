@@ -4,6 +4,11 @@ export const SocialWrapper = styled.div`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
+  margin: 0 30px;
+  align-items: center;
+`
+export const StyledButoane = styled.div`
+  margin: auto;
 `
 
 export const DataStyles = styled.div`
@@ -33,7 +38,7 @@ export const StyledTitle = styled.div`
 
 export const StyledWrapper = styled.div`
   border-radius: 6px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
   background-color: white;
   margin: 25px 0;
   position: relative;

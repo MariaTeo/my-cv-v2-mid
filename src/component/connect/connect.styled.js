@@ -10,7 +10,7 @@ export const ImageMe = styled.img.attrs({src:`${imageMe}`})`
   border-radius: 8px;
   transform: rotate(-2.5deg);
   padding: 10px;
-  margin: 0 auto;
+  margin: 0 30px;
 
   &:after {
     content: "";
@@ -28,6 +28,6 @@ export const AvatarWrapper = styled.div`
   margin: 0 auto;
   display: flex;
   align-content: center;
-  padding:20px;
+  padding-bottom: 40px;
 `
 

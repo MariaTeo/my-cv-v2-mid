@@ -102,17 +102,17 @@
       "title": "Legend",
       "itemList": [
         {
-          "iconite": "heart",
+          "legende": "heart",
           "color": "red",
           "label": "Skills I love"
         },
         {
-          "iconite": "trophy",
+          "legende": "trophy",
           "color": "orange",
-          "label": "Skills I'm goot at"
+          "label": "Skills I'm good at"
         },
         {
-          "iconite": "book",
+          "legende": "book",
           "color": "green",
           "label": "Skills I'd love to get better at"
         }
@@ -243,5 +243,290 @@
         ]
       }
     ]
-  }  
+  }, 
+  "experience": {
+    "sectionTitle": "Experience",
+    "listaJoburi": [
+      {
+        "numeJob": "Civil Enforcement Officer",
+        "dataStart": "February 2020",
+        "dataTerminat": "Present",
+        "iconWay": "nsl.png",
+        "numeCompanie": "NSL LTD",
+        "moreInfoList": [
+          "Working in Westminister borough, local authority.",
+          "Ensuring comunity security"
+        ]
+      },
+
+      {
+        "numeJob": "Food and Beverage Supervisor",
+        "dataStart": "May 2019",
+        "dataTerminat": "December 2019",
+        "iconWay": "etc.png",
+        "numeCompanie": "etc.venues",
+        "moreInfoList": [
+          "I was supervising teams of 4+ members and working alongside to provide excellent customer service"
+        ]
+      },
+
+      {
+        "numeJob": "Food and Beverage Assistant",
+        "dataStart": "October 2018",
+        "dataTerminat": "April 2019",
+        "iconWay": "etc.png",
+        "numeCompanie": "etc.venues",
+        "moreInfoList": [
+          "I learned how to manage my time more wisely",
+          "Fast-paced environment",
+          "Excellent customer service",
+          "Learned a few tips and tricks in the kitchen"
+        ]
+      }
+    ]
+  },
+  "openSource": {
+    "sectionTitle":"Open Source",
+    "stats":{
+      "statsName":"Stats",
+      "stat":[
+        {
+          "statIcon":"github",
+          "statDescription":[
+            "Contributions last year: over 100",
+            "Longest streak: ---"
+          ]
+        },
+        {
+          "statIcon":"codewars",
+          "statDescription":[
+            "Rank: 8kyu",
+            "Honor: 4"
+          ]
+        },
+        {
+          "statIcon":"stackoverflow",
+          "statDescription":[
+            "Top: ---",
+            "Reputation: ---",
+            "People reached: ---",
+            "Answers: ---"
+          ]
+        }
+      ]
+    },
+    "projects":{
+      "projectName":"GitHub projects",
+      "project":[
+        {
+          "projectName":"My Cv V2 Junior",
+          "skillsGained":[
+            {
+              "skillName":"HTML",
+              "percentage":"43.1",
+              "color":"#F0E218"
+            },
+            {
+              "skillName":"JavaScript",
+              "percentage":"31.0",
+              "color":"#1875F0"
+            },
+            {
+              "skillName":"SCSS",
+              "percentage":"16.3",
+              "color":"#20D55D"
+            },
+            {
+              "skillName":"CSS",
+              "percentage":"8.5",
+              "color":"#D52027"
+            },
+            {
+              "skillName":"PUG",
+              "percentage":"1.1",
+              "color":"#AB1CF2"
+            }
+          ],
+          "projectStats":[
+            {
+              "projectStatIcon":"commits",
+              "projectStatInfo":"Commits: 66"
+            },
+            {
+              "projectStatIcon":"stars",
+              "projectStatInfo":"Stars: ---"
+            },
+            {
+              "projectStatIcon":"forks",
+              "projectStatInfo":"Forks: ---"
+            }
+          ],
+          "projectInfo":"Building website in a team to increase efficiency and to deliver better and faster products; actively learning and applying HTML5, CSS3, JavaScript, ReactJS, and Redux",
+          "projectIcon":{
+            "mandatoryIcon":"info",
+            "extraIcon":[
+              {
+                "icon":"github",
+                "link":"https://github.com/MariaTeo/my-cv-v2-junior"
+              },
+              {
+                "icon":"youtube",
+                "link":""
+              }
+            ]
+          },
+          "projectLink": {
+            "icon":"github",
+            "description": "MariaTeo/my-cv-v2-junior",
+            "link": "https://github.com/MariaTeo/my-cv-v2-junior"
+          }
+        },
+        {
+          "projectName":"My Cv V2 Starter",
+          "skillsGained":[
+            {
+              "skillName":"HTML",
+              "percentage":"57.1",
+              "color":"#F0E218"
+            },
+            {
+              "skillName":"JavaScript",
+              "percentage":"3.1",
+              "color":"#1875F0"
+            },
+            {
+              "skillName":"CSS",
+              "percentage":"39.8",
+              "color":"#D52027"
+            }
+          ],
+          "projectStats":[
+            {
+              "projectStatIcon":"commits",
+              "projectStatInfo":"Commits: 49"
+            },
+            {
+              "projectStatIcon":"stars",
+              "projectStatInfo":"Stars: ---"
+            },
+            {
+              "projectStatIcon":"forks",
+              "projectStatInfo":"Forks: ---"
+            }
+          ],
+          "projectInfo":"Building website in a team to increase efficiency and to deliver better and faster products; actively learning and applying HTML5, CSS3, JavaScript .",
+          "projectIcon":{
+            "mandatoryIcon":"info",
+            "extraIcon":[
+              {
+                "icon":"github",
+                "link":"https://github.com/MariaTeo/my-cv-v2-starter"
+              },
+              {
+                "icon":"youtube",
+                "link":""
+              }
+            ]
+          },
+          "projectLink": {
+            "icon":"github",
+            "description": "MariaTeo/my-cv-v2-starter",
+            "link": "https://github.com/MariaTeo/my-cv-v2-starter"
+          }
+        }
+      ]
+    }
+  },
+  "portfolio ": {
+    "sectionTitle": "Portfolio",
+    "mainTitle": "Recent",
+    "project1": [
+      {
+        "title": "My CV v2 Junior",
+        "skills": "HTML, CSS, Git, JavaScript, CEO, React",
+        "link": "https://github.com/MariaTeo/my-cv-v2-junior",
+        "image": "asset/image/company-logo/romaris.png",
+        "linkIcon": "https://github.com/MariaTeo/my-cv-v2-junior"
+      },
+      {
+        "title": "My CV v2 Starter",
+        "skills": "HTML, CSS, Git, JavaScript, CEO, React",
+        "link": "https://github.com/MariaTeo/my-cv-v2-starter",
+        "image": "asset/image/company-logo/romaris.png",
+        "linkIcon": "https://github.com/MariaTeo/my-cv-v2-starter"
+      }
+    ],
+    "project2": {
+      "title": "Old",
+      "data": [
+        {
+          "title": "CodeTap Academy",
+          "skills": "HTML, CSS, Git, JavaScript, CEO, React",
+          "link": "https://codetap.academy",
+          "image": "asset/image/company-logo/romaris.png",
+          "linkIcon": "https://codetap.academy"
+        },
+        {
+          "title": "CodeTap Academy",
+          "skills": "HTML, CSS, Git, JavaScript, CEO, React",
+          "link": "https://codetap.academy",
+          "image": "asset/image/company-logo/romaris.png",
+          "linkIcon": "https://codetap.academy"
+        }
+      ]
+    }
+  },
+  "recommendations": {
+    "sectionTitle": "Recommendations",
+    "reviews": [
+      {
+        "image": "asset/image/marian.jpg",
+        "personName": "Marian Zburlea",
+        "jobTitle": "Career Mentor",
+        "review": "Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      },
+      {
+        "image": "asset/image/marian.jpg",
+        "personName": "Marian Zburlea",
+        "jobTitle": "Career Mentor",
+        "review": "Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      }
+    ]
+  }, 
+  "reviews": {
+    "sectionTitle": "Reviews",
+    "reviews": [
+      {
+        "image": "asset/image/marian.jpg",
+        "personName": "Marian Zburlea",
+        "date": "March 2021 at 20:45",
+        "review": "Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      },
+      {
+        "image": "asset/image/marian.jpg",
+        "personName": "Marian Zburlea",
+        "date": "February 2021 at 18:58",
+        "review": "Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      }
+    ]
+  },
+  "proud": {
+    "sectionTitle": "I'm proud",
+    "proud": "Awards and Achievements",
+    "proudList": [
+      {
+        "date": "2018",
+        "award": "I decided to move in London by myself, leaving everyting that I knew behind and started from scratch."
+      },
+      {
+        "date": "2020",
+        "award": "I started to be interested in programming. I was attracted mostly by the fact that you have tthe possibility to create something from nothing, as a semi-god because my creations will not be living."
+      },
+      {
+        "date": "2021",
+        "award": "I started to learn more about coding and creating a website. I accomplished in 1 month more than I did in 1 year.",
+        "location": "London, UK"
+      }
+    ]
+  }
 }

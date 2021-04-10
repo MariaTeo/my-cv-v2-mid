@@ -37,7 +37,7 @@ const clickMe = (iconite) => {
       <SI.SocialWrapper>
         {socialList.map( ( {iconite} ) => {
           return(
-            <>
+            <SI.StyledButoane>
               <Buttons onClick={() => clickMe(iconite)}
               key={iconite}
               size='50px'
@@ -46,7 +46,7 @@ const clickMe = (iconite) => {
               > 
                 <Icon size='40%' icon={iconite} color='white'/>
               </Buttons>
-            </>
+            </SI.StyledButoane>
           )
         } )}   
         {select &&(

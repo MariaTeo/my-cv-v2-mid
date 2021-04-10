@@ -27,13 +27,11 @@ export const StyledSectionTitle = styled.div`
 `
 
 export const StyledTitlu = styled.div`
-  text-align: center;
   height: 40px;
-  line-height: 40px;
+  line-height: 55px;
   text-align: center;
   color: white;
   position: relative;
   font-size: 24px;
   font-weight: 600;
-
 `

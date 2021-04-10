@@ -22,7 +22,7 @@ const AboutMe = () => {
 
   return (
     <>
-        <SectionTitle title={data.sectionTitle}/>
+      <SectionTitle title={data.sectionTitle}/>
       <AM.StyledName>{data.nameTitle}</AM.StyledName>
       <AM.StyledJob>{data.jobTitle}</AM.StyledJob>
       <AM.StyledAboutTitle>{data.moreTitle}</AM.StyledAboutTitle>

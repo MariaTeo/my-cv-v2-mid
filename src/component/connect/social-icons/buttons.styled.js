@@ -10,6 +10,7 @@ export const StyledBtn = styled.div`
   border: 0;
   background-color: ${({ color }) => (color ? color : "#50d166")};
   color: white;
+  margin: 0;
 `
 
 export const StyledBtnLink = styled.a`
@@ -24,7 +25,7 @@ export const StyledBtnLink = styled.a`
   cursor: pointer;
   display: inline-block;
   justify-content: center;
-  margin-top: 20px;
+  margin: 10px ;
 `
 
 export const StyledButton = styled.button`
@@ -39,6 +40,7 @@ export const StyledButton = styled.button`
   display: flex;
   justify-content: center;
   align-items: center;
+  
   
   & .icon__download {
     margin-right: 12px;
