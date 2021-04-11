@@ -2,7 +2,12 @@ import React, {useEffect, useState } from 'react'
 import SectionTitle from '../section-title/section-title.component'
 import * as SK from './skills.styled';
 import Icon from '../icons/icon.component'
-import {StyledAboutTitle} from '../about-me/about-me.styled'
+import {StyledAboutTitle, StyledDescriptionList, StyledDescriptionAbout} from '../about-me/about-me.styled'
+import SkillList from '../skills/skill-list.component'
+import ArrowDown from '../arrow-down/arrow-down.component';
+
+
+
 
 const Skills = () => {
   const [data, setData ] = useState({});
@@ -21,7 +26,7 @@ const Skills = () => {
   }, []);
 
 const {legend = {}} = data
-      
+
   return (
     <>
     <SectionTitle title={data.sectionTitle} />
@@ -40,6 +45,13 @@ const {legend = {}} = data
         )
       })}
     </SK.StyledBox>
+    <SkillList />
+    <StyledDescriptionList>
+      <StyledDescriptionAbout>
+        {data.descriere}
+      </StyledDescriptionAbout>
+    </StyledDescriptionList>
+    <ArrowDown/>
     </>
   )
 }

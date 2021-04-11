@@ -48,3 +48,21 @@ export const StyledNumere = styled.div`
   margin-top: 13px;
   padding-left: 270px;
 `
+
+const colorList = {
+  heart: "#D52027",
+  trophy: "#50D166",
+  book: "#F18F1C",
+}
+
+export const StyledSkillsData = styled.div`
+  background-color: ${({ type }) => colorList[type]};
+  color: white;
+  border-bottom: 2px solid #707070;
+  border-radius: 15px;
+  margin: 5px 5px;
+  padding: 0 10px;
+  font-size: 13px;
+  display: inline-block;
+  text-align: center;
+`

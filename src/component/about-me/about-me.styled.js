@@ -36,8 +36,7 @@ export const StyledDescriptionList = styled.div`
 `
 export const StyledDescriptionAbout = styled.div`
   margin: 20px;
-  padding-top: 10px;
-  padding-bottom: 30px;
+  padding: 10px;
   line-height: 30px;
 `
 

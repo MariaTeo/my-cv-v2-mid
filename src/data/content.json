@@ -120,7 +120,7 @@
     },
     "skillTypeList": [
       {
-        "type": "Front-end",
+        "category": "Front-end",
         "skillList": [
           {
             "type": "heart",
@@ -165,7 +165,7 @@
         ]
       },
       {
-        "type": "Back-end",
+        "category": "Back-end",
         "skillList": [
           {
             "type": "heart",
@@ -214,7 +214,7 @@
         ]
       },
       {
-        "type": " Others",
+        "category": " Others",
         "skillList": [
           {
             "type": "heart",
