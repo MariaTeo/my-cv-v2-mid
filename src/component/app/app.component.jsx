@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import AboutMe from '../about-me/about-me.component'
 import Connect from '../connect/connect.component'
 import Skills from '../skills/skills.component'
+import Experience from '../experience/experience.component'
 
 function App () {
   return (
@@ -9,6 +10,7 @@ function App () {
     <AboutMe />
     <Connect />
     <Skills />
+    <Experience />
     </>
   )
 }

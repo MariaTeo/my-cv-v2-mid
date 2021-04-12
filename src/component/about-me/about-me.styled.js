@@ -9,7 +9,7 @@ export const StyledName = styled.h1`
 
 export const StyledJob = styled.h2`
   font-weight: 500;
-  color: #707070;
+    color: #707070;
   text-align: center;
   font-size: 36px;
   line-height: 48px;
