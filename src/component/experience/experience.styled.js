@@ -7,6 +7,8 @@ export const AccordionWrapper  = styled.div`
 `
 export const AccordionBox  = styled.div`
     border: 2px solid grey;
+    border-radius: 13px;
+    margin: 0 30px;
    
 `
 
@@ -20,15 +22,18 @@ export const BorderBottom  = styled.div`
 `
 export const OpenAccordion = styled.div`
   padding: 10px;
+  display: flex;
+  font-size: 15px;
+  font-weight: 500;
+  color: #707070;
 `
 
-
-
 export const ChevronWrapper = styled.div`
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   border: 2px solid grey;
   border-radius: 50%;
+  
 `
 
 
@@ -45,16 +50,21 @@ export const Chevrone = styled.div`
   width: 20px;
   height: 20px;
   transition: transform 0.2s ease;
-  margin: auto;
+  margin: 19px;
 `
 
 export const AccordionData = styled.div`
+  display: flex;
   background-color: white;
   overflow: auto;
   transition: max-height 0.6s ease;
   line-height: 20px;
   height: ${({ isOpen }) => (isOpen ? "auto" : "0px")};
- 
+  border-top: ${({ isOpen }) => (isOpen ? "2px solid grey" : "auto")};
+  padding: ${({ isOpen }) => (isOpen ? "10px" : "auto")};
+  font-size: 15px;
+  font-weight: 500;
+  color: #707070;
 `
 
 export const Logo = styled.div`
@@ -63,13 +73,17 @@ export const Logo = styled.div`
   border-radius: 50%;
   background: url(${({ icon }) => (icon ? icon : "")});
   background-size: cover;
-  margin-left: -10px;
+  padding: auto;
 `
 
 export const Titlu = styled.div`
-  padding: 10px;
+  padding: 5px 0;
 `
 
 export const SubTitlu = styled.div`
-  padding: 10px;
+  padding: 0 5px;
+`
+
+export const DescContent = styled.div`
+  padding: 0 5px;
 `

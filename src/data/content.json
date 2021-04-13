@@ -254,7 +254,8 @@
         "iconWay": "asset/images/nsl.png",
         "numeCompanie": "NSL LTD",
         "moreInfoList": [
-          "Working in Westminister borough, local authority. Ensuring comunity security"
+          "Working in Westminister borough, local authority. ",
+          "Ensuring comunity security"
 
         ]
       },
@@ -266,7 +267,7 @@
         "iconWay": "asset/images/etc.png",
         "numeCompanie": "etc.venues",
         "moreInfoList": [
-          "I was supervising teams of 4+ members and working alongside to provide excellent customer service"
+          "I was supervising teams of 4+ members and working alongside to provide excellent customer service."
         ]
       },
 
@@ -277,10 +278,10 @@
         "iconWay": "asset/images/etc.png",
         "numeCompanie": "etc.venues",
         "moreInfoList": [
-          "I learned how to manage my time more wisely",
-          "Fast-paced environment",
-          "Excellent customer service",
-          "Learned a few tips and tricks in the kitchen"
+          "I learned how to manage my time more wisely. ",
+          "Fast-paced environment. ",
+          "Excellent customer service. ",
+          "Learned a few tips and tricks in the kitchen."
         ]
       }
     ]

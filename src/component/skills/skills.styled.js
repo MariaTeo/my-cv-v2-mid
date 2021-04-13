@@ -6,7 +6,6 @@ export const StyledTitlu = styled.h3`
   text-align: left;
   font-size: 22px;
   line-height: 48px;
-  padding-top: 10px;
   padding-left: 20px;
 `
 
@@ -15,6 +14,7 @@ export const StyledBox = styled.div`
   margin: 0 30px;
   border-radius: 6px;
   list-style-type: none;
+
 `
 
 export const StyledListLegends = styled.div`
@@ -60,9 +60,11 @@ export const StyledSkillsData = styled.div`
   color: white;
   border-bottom: 2px solid #707070;
   border-radius: 15px;
-  margin: 5px 5px;
-  padding: 0 10px;
+  margin: 0 5px;
+  padding: 0 6px;
   font-size: 13px;
   display: inline-block;
   text-align: center;
+  height: 30px;
+  line-height: 30px;
 `
