@@ -3,13 +3,11 @@ import styled from 'styled-components'
 export const AccordionWrapper  = styled.div`
   display: flex;
   flex-direction: column;
-
 `
 export const AccordionBox  = styled.div`
     border: 2px solid grey;
     border-radius: 13px;
     margin: 0 30px;
-   
 `
 
 export const BorderBottom  = styled.div`
@@ -50,11 +48,11 @@ export const Chevrone = styled.div`
   width: 20px;
   height: 20px;
   transition: transform 0.2s ease;
-  margin: 19px;
+  margin: 14px;
 `
 
 export const AccordionData = styled.div`
-  display: flex;
+
   background-color: white;
   overflow: auto;
   transition: max-height 0.6s ease;
@@ -62,22 +60,23 @@ export const AccordionData = styled.div`
   height: ${({ isOpen }) => (isOpen ? "auto" : "0px")};
   border-top: ${({ isOpen }) => (isOpen ? "2px solid grey" : "auto")};
   padding: ${({ isOpen }) => (isOpen ? "10px" : "auto")};
+  display: ${({ isOpen }) => (isOpen ? "block" : "flex")};
   font-size: 15px;
   font-weight: 500;
   color: #707070;
 `
 
 export const Logo = styled.div`
-  height: 60px;
+  height: 50px;
   width: 60px;
   border-radius: 50%;
   background: url(${({ icon }) => (icon ? icon : "")});
   background-size: cover;
-  padding: auto;
+;
 `
 
 export const Titlu = styled.div`
-  padding: 5px 0;
+  padding: 5px 5px;
 `
 
 export const SubTitlu = styled.div`
@@ -86,4 +85,10 @@ export const SubTitlu = styled.div`
 
 export const DescContent = styled.div`
   padding: 0 5px;
+`
+
+
+export const StyledDates = styled.div`
+  padding: 5px 0;
+  font-size: 13px;
 `

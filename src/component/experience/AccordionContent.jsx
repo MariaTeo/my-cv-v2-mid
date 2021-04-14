@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import {AccordionWrapper, OpenAccordion, AccordionData, Logo, Titlu, SubTitlu, DescContent } from './experience.styled'
+import {AccordionWrapper, OpenAccordion, AccordionData, Logo, Titlu, SubTitlu, DescContent, StyledDates } from './experience.styled'
 import Chevron from './Chevron'
 import {images} from '../../constants/images'
 
@@ -28,6 +28,9 @@ const AccordionContent = ({joburi}) => {
           <Chevron isOpen={isOpen}/>
         </OpenAccordion>
         <AccordionData isOpen={isOpen}>
+          <StyledDates>
+            {joburi.dataStart}
+          </StyledDates>
          <div>
            {joburi.moreInfoList}
          </div>

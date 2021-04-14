@@ -249,8 +249,7 @@
     "listaJoburi": [
       {
         "numeJob": "Civil Enforcement Officer",
-        "dataStart": "February 2020",
-        "dataTerminat": "Present",
+        "dataStart": "February 2020 - Present",
         "iconWay": "asset/images/nsl.png",
         "numeCompanie": "NSL LTD",
         "moreInfoList": [
@@ -262,8 +261,7 @@
 
       {
         "numeJob": "Food and Beverage Supervisor",
-        "dataStart": "May 2019",
-        "dataTerminat": "December 2019",
+        "dataStart": "May 2019 - December 2019",
         "iconWay": "asset/images/etc.png",
         "numeCompanie": "etc.venues",
         "moreInfoList": [
@@ -273,8 +271,7 @@
 
       {
         "numeJob": "Food and Beverage Assistant",
-        "dataStart": "October 2018",
-        "dataTerminat": "April 2019",
+        "dataStart": "October 2018 - April 2019",
         "iconWay": "asset/images/etc.png",
         "numeCompanie": "etc.venues",
         "moreInfoList": [

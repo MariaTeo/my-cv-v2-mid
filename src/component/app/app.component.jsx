@@ -3,6 +3,7 @@ import AboutMe from '../about-me/about-me.component'
 import Connect from '../connect/connect.component'
 import Skills from '../skills/skills.component'
 import Experience from '../experience/experience.component'
+import OpenSource from '../open-source/open-source.component'
 
 function App () {
   return (
@@ -11,6 +12,7 @@ function App () {
     <Connect />
     <Skills />
     <Experience />
+    <OpenSource />
     </>
   )
 }

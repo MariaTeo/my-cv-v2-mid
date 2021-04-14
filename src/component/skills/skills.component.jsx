@@ -7,8 +7,6 @@ import SkillList from '../skills/skill-list.component'
 import ArrowDown from '../arrow-down/arrow-down.component';
 
 
-
-
 const Skills = () => {
   const [data, setData ] = useState({});
   useEffect(() => {
