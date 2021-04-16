@@ -14,7 +14,6 @@ export const StyledBox = styled.div`
   margin: 0 30px;
   border-radius: 6px;
   list-style-type: none;
-
 `
 
 export const StyledListLegends = styled.div`
