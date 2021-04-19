@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react'
-import {StyledAboutTitle} from '../about-me/about-me.styled'
-import StatsContent from './stats-content.component'
+import  Acordeon  from './acordeon.component'
 
-const OpenFirstPart = () => {
+const AccordionSource = () => {
   const [data, setData] = useState({});
   useEffect(() => {
     try {
@@ -18,13 +17,19 @@ const OpenFirstPart = () => {
     }
   }, []);
 
+
+
   return (
     <>
-      <StyledAboutTitle>{data?.stats?.statsName}</StyledAboutTitle>
-      <StatsContent/>
-      <StyledAboutTitle>{data?.projects?.projectName}</StyledAboutTitle> 
+    {data?.projects?.project.map((items) => {
+      return(
+        <Acordeon proiecte={items}/>
+      )
+    })}
+
+    
     </>
- )}
+  )
+} 
 
-
-export default OpenFirstPart
+export default AccordionSource

@@ -337,12 +337,7 @@
             {
               "skillName":"CSS",
               "percentage":"8.5",
-              "color":"#D52027"
-            },
-            {
-              "skillName":"PUG",
-              "percentage":"1.1",
-              "color":"#AB1CF2"
+              "color":"#D52027" 
             }
           ],
           "projectStats":[
@@ -386,6 +381,11 @@
               "skillName":"HTML",
               "percentage":"57.1",
               "color":"#F0E218"
+            }, 
+            {
+              "skillName":"CSS",
+              "percentage":"39.8",
+              "color":"#D52027"
             },
             {
               "skillName":"JavaScript",
@@ -393,10 +393,11 @@
               "color":"#1875F0"
             },
             {
-              "skillName":"CSS",
-              "percentage":"39.8",
-              "color":"#D52027"
+              "skillName":"PUG",
+              "percentage":"3.1",
+              "color":"#20D55D"
             }
+           
           ],
           "projectStats":[
             {

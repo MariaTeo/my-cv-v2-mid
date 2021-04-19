@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import OpenFirstPart from './open-first.component';
+import AccordionSource from './accordion-source.component';
+
 
 const OpenContent = () => {
   const [data, setData] = useState({});
@@ -21,8 +23,8 @@ const OpenContent = () => {
 
   return (
     <>
-      <OpenFirstPart></OpenFirstPart>
-      <p></p>
+      <OpenFirstPart/>
+      <AccordionSource/>
     </>
   )
 } 
