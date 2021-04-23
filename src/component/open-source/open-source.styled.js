@@ -32,14 +32,17 @@ export const ContentBox = styled.div`
 `
 
 export const Bara = styled.div`
- height: 10px;
- display: flex;
+  height: 10px;
+  display: flex;
+  width: 84%;
+  margin-left:30px;
+  margin-bottom:30px;
 `
 
 export const FragmentBara = styled.span`
 width: ${props => `${props.percentage}%`};
 background-color: ${props => props.color};
-
+  
 `
 export const Proiecte = styled.div`
   font-size: 12px;

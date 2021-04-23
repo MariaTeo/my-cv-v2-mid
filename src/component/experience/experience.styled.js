@@ -52,7 +52,6 @@ export const Chevrone = styled.div`
 `
 
 export const AccordionData = styled.div`
-
   background-color: white;
   overflow: auto;
   transition: max-height 0.6s ease;

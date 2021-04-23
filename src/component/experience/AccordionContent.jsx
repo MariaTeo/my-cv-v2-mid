@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import {AccordionWrapper, OpenAccordion, AccordionData, Logo, Titlu, SubTitlu, DescContent, StyledDates } from './experience.styled'
+import {AccordionWrapper, OpenAccordion, AccordionData, Logo, Titlu, SubTitlu, DescContent, StyledDates, Joburi } from './experience.styled'
 import Chevron from './Chevron'
 import {images} from '../../constants/images'
 
@@ -17,7 +17,7 @@ const AccordionContent = ({joburi}) => {
   }  
 
   return(
-    <div>
+    <>
       <AccordionWrapper>
         <OpenAccordion onClick={toggleAccordion}>
           <Logo icon={images[trimIconPath(joburi.iconWay)]} />
@@ -36,7 +36,7 @@ const AccordionContent = ({joburi}) => {
          </div>
         </AccordionData>
       </AccordionWrapper>
-    </div>
+    </>
   )
 }
 

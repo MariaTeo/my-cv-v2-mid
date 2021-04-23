@@ -52,7 +52,8 @@ const Acordeon = ({proiecte}) => {
         <div>{proiecte.projectInfo}</div>
       </Continut>
       </Cutiuta>
-      {data && data.projects && data.projects.project.map(({ skillsGained }) => {
+      <div>
+        {data && data.projects && data.projects.project.map(({ skillsGained }) => {
         return  (
           <Bara>
             {proiecte.skillsGained.map(({color, percentage}) => {
@@ -62,10 +63,16 @@ const Acordeon = ({proiecte}) => {
             })}
           </Bara>
       )})}  
+      </div>
+      
       <Button onClick={chevron}>
         <Icon icon={proiecte.projectIcon.mandatoryIcon}/>
       </Button>
-      <Button>
+      <Button type="button"
+      onClick={(e) => {
+        e.preventDefault();
+        window.location.href="link"
+      }}>
       {proiecte.projectIcon.extraIcon.map(({icon, link}) => {
           return(
             <Icon icon={icon} type="link" href={link} target="_blank"/>

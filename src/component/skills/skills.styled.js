@@ -10,7 +10,7 @@ export const StyledTitlu = styled.h3`
 `
 
 export const StyledBox = styled.div`
-  border: 2px solid #707070;
+  border: 2px solid grey;
   margin: 0 30px;
   border-radius: 6px;
   list-style-type: none;
@@ -20,7 +20,7 @@ export const StyledListLegends = styled.div`
   display: flex;
 
   &:not(:last-child) {
-  border-bottom: 2px solid #707070;
+  border-bottom: 2px solid grey;
   border-top: 0;
   }
 `
@@ -57,7 +57,7 @@ const colorList = {
 export const StyledSkillsData = styled.div`
   background-color: ${({ type }) => colorList[type]};
   color: white;
-  border-bottom: 2px solid #707070;
+  border-bottom: 1px solid grey;
   border-radius: 15px;
   margin: 0 5px;
   padding: 0 6px;
