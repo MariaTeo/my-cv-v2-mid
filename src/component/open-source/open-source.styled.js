@@ -60,7 +60,7 @@ export const TitluProiect = styled.div`
 export const BoxWrapper = styled.div`
   font-size: 12px;
   font-weight: 600;
-  color: #707070; 
+  color: #707070;
 `
 export const Title = styled.div`
   font-size: 12px;
@@ -71,10 +71,24 @@ export const Continut = styled.div`
   font-size: 12px;
   font-weight: 600;
   color: #707070; 
+  height: ${({close}) => (close?'auto':'0px')};
+  overflow: hidden;
 `
 
 export const Skilluri = styled.div`
   font-size: 12px;
   font-weight: 600;
   color: #707070; 
+`
+
+export const Cutiuta = styled.div`
+  border: 2px solid grey;
+  border-radius: 10px;
+  margin: 0 30px;
+`
+export const Button = styled.div`
+  height: 40px;
+  width: 40px;
+  background-color: purple;
+  margin-left: 50px;
 `

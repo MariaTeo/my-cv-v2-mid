@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import {BoxWrapper, Title, Continut, Skilluri, Bara, FragmentBara } from './open-source.styled'
+import {BoxWrapper, Title, Continut, Skilluri, Bara, FragmentBara, Cutiuta, Button } from './open-source.styled'
+import Icon from '../icons/icon.component'
 
 const Acordeon = ({proiecte}) => {
   const [data, setData] = useState({});
@@ -17,9 +18,16 @@ const Acordeon = ({proiecte}) => {
     }
   }, []);
 
+  const [ close, setClose ] = useState(false)
+  const chevron = () => {
+    setClose((value) => !value)
+  }
+
+
   return (
     <>
-      <BoxWrapper>
+      <Cutiuta>
+      <BoxWrapper >
         <Title>
         {proiecte.projectName}
         </Title>
@@ -30,18 +38,9 @@ const Acordeon = ({proiecte}) => {
             )
           })}
         </Skilluri>
-        {data && data.projects && data.projects.project.map(({ skillsGained }) => {
-        return  (
-          <Bara>
-            {proiecte.skillsGained.map(({color, percentage}) => {
-              return (
-                <FragmentBara color={color} percentage={percentage}/>
-              )
-            })}
-          </Bara>
-      )})}  
+        
       </BoxWrapper>
-      <Continut>
+      <Continut close={close}>
         {proiecte.projectStats.map((i) => {
           return(
             <>
@@ -52,6 +51,27 @@ const Acordeon = ({proiecte}) => {
         })}
         <div>{proiecte.projectInfo}</div>
       </Continut>
+      </Cutiuta>
+      {data && data.projects && data.projects.project.map(({ skillsGained }) => {
+        return  (
+          <Bara>
+            {proiecte.skillsGained.map(({color, percentage}) => {
+              return (
+                <FragmentBara color={color} percentage={percentage}/>
+              )
+            })}
+          </Bara>
+      )})}  
+      <Button onClick={chevron}>
+        <Icon icon={proiecte.projectIcon.mandatoryIcon}/>
+      </Button>
+      <Button>
+      {proiecte.projectIcon.extraIcon.map(({icon, link}) => {
+          return(
+            <Icon icon={icon} type="link" href={link} target="_blank"/>
+          )
+        })}
+      </Button>
     </>
   )
 } 
