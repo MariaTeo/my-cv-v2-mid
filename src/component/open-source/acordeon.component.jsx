@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import {BoxWrapper, Title, Continut, Skilluri, Bara, FragmentBara, Cutiuta, Button } from './open-source.styled'
+import {BoxWrapper, Title, Continut, Skilluri, Bara, FragmentBara, Cutiuta, Button, Roze, Statusuri, StatusuriInfo, Display, ProiecteInfo, Link, ContinutB, ContinutProiecte,NumeSkill } from './open-source.styled'
 import Icon from '../icons/icon.component'
 
 const Acordeon = ({proiecte}) => {
@@ -34,51 +34,53 @@ const Acordeon = ({proiecte}) => {
         <Skilluri>
           {proiecte.skillsGained.map(({skillName}) => {
             return(
-              <p>{skillName}</p>
+              <NumeSkill>{skillName}</NumeSkill>
             )
           })}
         </Skilluri>
         
       </BoxWrapper>
       <Continut close={close}>
-        {proiecte.projectStats.map((i) => {
-          return(
-            <>
-              <div>{i.projectStatIcon}</div>
-              <div>{i.projectStatInfo}</div>
-            </>
-          )
-        })}
-        <div>{proiecte.projectInfo}</div>
+        <Statusuri>
+          {proiecte.projectStats.map((i) => {
+            return(
+              <Display>
+                <Icon color='grey' icon={i.projectStatIcon} size='20'/>
+                <StatusuriInfo>{i.projectStatInfo}</StatusuriInfo>
+              </Display>
+            )
+          })}
+        </Statusuri>
+        <ProiecteInfo><ContinutProiecte>{proiecte.projectInfo}</ContinutProiecte></ProiecteInfo>
+        <Link type='button'>
+          <ContinutB><Icon icon='github' size='16' color='white'/>{proiecte.projectLink.link}</ContinutB>
+        </Link>
       </Continut>
-      </Cutiuta>
-      <div>
-        {data && data.projects && data.projects.project.map(({ skillsGained }) => {
-        return  (
-          <Bara>
-            {proiecte.skillsGained.map(({color, percentage}) => {
-              return (
-                <FragmentBara color={color} percentage={percentage}/>
-              )
-            })}
-          </Bara>
-      )})}  
-      </div>
-      
-      <Button onClick={chevron}>
-        <Icon icon={proiecte.projectIcon.mandatoryIcon}/>
-      </Button>
-      <Button type="button"
-      onClick={(e) => {
-        e.preventDefault();
-        window.location.href="link"
-      }}>
-      {proiecte.projectIcon.extraIcon.map(({icon, link}) => {
-          return(
-            <Icon icon={icon} type="link" href={link} target="_blank"/>
+      <Bara>
+        {proiecte.skillsGained.map(({color, percentage}) => {
+          return (
+            <FragmentBara color={color} percentage={percentage}/>
           )
         })}
-      </Button>
+      </Bara>  
+      </Cutiuta>
+      <Roze>
+        <Button onClick={chevron}>
+          <Icon color='white' icon={proiecte.projectIcon.mandatoryIcon}/>
+        </Button>
+        <Button type="button"
+        onClick={(e) => {
+          e.preventDefault();
+          window.location.href="link"
+        }}>
+        {proiecte.projectIcon.extraIcon.map(({icon, 
+        }) => {
+            return(
+              <Icon color='white' icon={icon}/>
+            )
+          })}
+        </Button>
+      </Roze>
     </>
   )
 } 

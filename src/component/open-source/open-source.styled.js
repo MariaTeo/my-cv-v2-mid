@@ -34,9 +34,6 @@ export const ContentBox = styled.div`
 export const Bara = styled.div`
   height: 10px;
   display: flex;
-  width: 84%;
-  margin-left:30px;
-  margin-bottom:30px;
 `
 
 export const FragmentBara = styled.span`
@@ -69,6 +66,7 @@ export const Title = styled.div`
   font-size: 12px;
   font-weight: 600;
   color: #707070; 
+  margin: 20px 10px;
 `
 export const Continut = styled.div`
   font-size: 12px;
@@ -80,8 +78,14 @@ export const Continut = styled.div`
 
 export const Skilluri = styled.div`
   font-size: 12px;
-  font-weight: 600;
+  font-weight: 500;
   color: #707070; 
+  margin: 20px 10px;
+  display: flex; 
+`
+
+export const NumeSkill = styled.div`
+  margin-right: 10px;
 `
 
 export const Cutiuta = styled.div`
@@ -90,8 +94,61 @@ export const Cutiuta = styled.div`
   margin: 0 30px;
 `
 export const Button = styled.div`
-  height: 40px;
+  height: 50px;
   width: 40px;
-  background-color: purple;
-  margin-left: 50px;
+  background-color: #ff006d;
+  margin-left: 1px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  margin-bottom: 30px;
+`
+
+export const Roze = styled.div`
+  display: flex;
+  justify-content: center;
+`
+
+export const Statusuri = styled.div`
+  border-top: 2px solid grey;
+  border-bottom: 2px solid grey;
+`
+
+
+export const StatusuriInfo = styled.div`
+  margin-left: 10px;
+`
+
+export const Display = styled.div`
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+`
+
+export const ProiecteInfo = styled.div`
+  display: flex;
+  justify-content: center;
+  line-height: 30px;
+  border-bottom: 2px solid grey;
+`
+export const ContinutProiecte = styled.div`
+margin: 10px;
+`
+
+export const Link = styled.div`
+  width: 80%;
+  height: 40px;
+  background-color: #1875f0;
+  color: white;
+  margin: 20px;
+  margin-left: 30px;
+  border-radius: 20px;
+  text-align:center;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  font-size: 11px;
+  font-weight: 500;
+`
+
+export const ContinutB = styled.div`
+  margin: 8px;
 `
