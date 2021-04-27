@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import {BoxWrapper, Title, Continut, Skilluri, Bara, FragmentBara, Cutiuta, Button, Roze, Statusuri, StatusuriInfo, Display, ProiecteInfo, Link, ContinutB, ContinutProiecte,NumeSkill } from './open-source.styled'
+import {BoxWrapper, Title, Continut, Skilluri, Bara, FragmentBara, Cutiuta, Button, ContinutB, Roze, Statusuri, StatusuriInfo, Display, ProiecteInfo, Link, ContinutProiecte,NumeSkill } from './open-source.styled'
 import Icon from '../icons/icon.component'
 
 const Acordeon = ({proiecte}) => {
@@ -51,9 +51,17 @@ const Acordeon = ({proiecte}) => {
             )
           })}
         </Statusuri>
-        <ProiecteInfo><ContinutProiecte>{proiecte.projectInfo}</ContinutProiecte></ProiecteInfo>
-        <Link type='button'>
-          <ContinutB><Icon icon='github' size='16' color='white'/>{proiecte.projectLink.link}</ContinutB>
+        <ProiecteInfo>
+          <ContinutProiecte>
+            {proiecte.projectInfo}
+          </ContinutProiecte>
+        </ProiecteInfo>
+        <Link>
+          <ContinutB>
+            <a href={proiecte.projectLink.link} target="_blank">
+              <Icon icon='github' size='16' color='white' />{proiecte.projectLink.link}
+            </a>
+          </ContinutB>
         </Link>
       </Continut>
       <Bara>
@@ -64,22 +72,22 @@ const Acordeon = ({proiecte}) => {
         })}
       </Bara>  
       </Cutiuta>
-      <Roze>
         <Button onClick={chevron}>
           <Icon color='white' icon={proiecte.projectIcon.mandatoryIcon}/>
-        </Button>
-        <Button type="button"
-        onClick={(e) => {
-          e.preventDefault();
-          window.location.href="link"
-        }}>
-        {proiecte.projectIcon.extraIcon.map(({icon, 
+        </Button> 
+        <Roze>
+        <div>
+        {proiecte.projectIcon.extraIcon.map(({icon, link
         }) => {
             return(
-              <Icon color='white' icon={icon}/>
+              <a href={link} target="_blank">
+                <Button>
+                  <Icon color="white" icon={icon}/>
+                </Button>
+              </a>
             )
           })}
-        </Button>
+        </div>
       </Roze>
     </>
   )
