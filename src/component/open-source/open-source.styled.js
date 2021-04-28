@@ -100,7 +100,6 @@ export const Button = styled.div`
   margin-left: 1px;
   border-bottom-right-radius: 15px;
   border-bottom-left-radius: 15px;
-  margin-bottom: 30px;
   display: flex;
   flex-direction: row;
 `
@@ -108,7 +107,13 @@ export const Button = styled.div`
 export const Roze = styled.div`
   display: flex;
   flex-direction: row;
-  margin-left: 180px;
+`
+
+export const Trei = styled.div`
+  display: flex;
+  flex-direction: row;
+  margin-left: 190px;
+  margin-bottom: 20px;
 `
 
 export const Statusuri = styled.div`
@@ -133,6 +138,7 @@ export const ProiecteInfo = styled.div`
   line-height: 30px;
   border-bottom: 2px solid grey;
 `
+
 export const ContinutProiecte = styled.div`
 margin: 10px;
 `
@@ -154,11 +160,14 @@ export const Link = styled.div`
 
 export const ContinutB = styled.div`
   margin: 8px;
-
 `
 
 export const Butoane = styled.div`
   display: flex;
   flex-direction: row;
+`
 
+export const Butt = styled.div`
+  display: flex;
+  flex-direction: row;
 `

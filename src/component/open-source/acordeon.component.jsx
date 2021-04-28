@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import {BoxWrapper, Title, Continut, Skilluri, Bara, FragmentBara, Cutiuta, Button, ContinutB, Roze, Statusuri, StatusuriInfo, Display, ProiecteInfo, Link, ContinutProiecte,NumeSkill } from './open-source.styled'
+import {BoxWrapper, Title, Continut, Skilluri, Bara, FragmentBara, Cutiuta, Button, ContinutB, Roze, Statusuri, StatusuriInfo, Display, ProiecteInfo, Link, ContinutProiecte,NumeSkill, Butt, Trei } from './open-source.styled'
 import Icon from '../icons/icon.component'
 
 const Acordeon = ({proiecte}) => {
@@ -72,23 +72,25 @@ const Acordeon = ({proiecte}) => {
         })}
       </Bara>  
       </Cutiuta>
-        <Button onClick={chevron}>
-          <Icon color='white' icon={proiecte.projectIcon.mandatoryIcon}/>
-        </Button> 
-        <Roze>
-        <div>
-        {proiecte.projectIcon.extraIcon.map(({icon, link
-        }) => {
-            return(
-              <a href={link} target="_blank">
-                <Button>
-                  <Icon color="white" icon={icon}/>
-                </Button>
-              </a>
-            )
-          })}
-        </div>
+      <Trei>
+      <Button onClick={chevron}>
+        <Icon color='white' icon={proiecte.projectIcon.mandatoryIcon}/>
+      </Button> 
+      <Roze>
+      {proiecte.projectIcon.extraIcon.map(({icon, link
+      }) => {
+          return(
+            <a href={link} target="_blank">
+              <Button>
+                <Butt>
+                <Icon color="white" icon={icon}/>
+                </Butt>
+              </Button>
+            </a>
+          )
+        })}
       </Roze>
+      </Trei>
     </>
   )
 } 
