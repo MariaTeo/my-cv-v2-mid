@@ -4,6 +4,7 @@ import Connect from '../connect/connect.component'
 import Skills from '../skills/skills.component'
 import Experience from '../experience/experience.component'
 import OpenSource from '../open-source/open-source.component'
+import Portfolio from '../portfolio/portfolio.component'
 
 function App () {
   return (
@@ -13,6 +14,7 @@ function App () {
     <Skills />
     <Experience />
     <OpenSource />
+    <Portfolio />
     </>
   )
 }
